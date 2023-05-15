@@ -85,6 +85,6 @@ RegisterNetEvent("Ludaro:Webhook", function(color, actionn, description, footer,
   end)
 
   function createcallback(color, actionn, description, footer, botname, botlogo, imagesource)
-    TriggerServerEvent("Ludaro:Webhook", color, actionn, description, footer, botname, botlogo, imagesource)
+    TriggerEvent("Ludaro:Webhook", color, actionn, description, footer, botname, botlogo, imagesource)
   end
   exports("Webhook", createcallback)
