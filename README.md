@@ -70,7 +70,7 @@ TriggerEvent("Ludaro:Webhook", color, actionn, description, footer, botname, bot
 - Verwenden Sie einen Export aus einem beliebigen Skript:
 
 ```lua
-exports["es_extended"]:Webhook(color, actionn, description, footer, botname, botlogo, imagesource)
+exports["LWebhook"]:Webhook(color, actionn, description, footer, botname, botlogo, imagesource)
 ```
 
 Alle diese Variablen werden unten erklärt und haben einen Standardwert, den Sie in der Konfiguration ändern können. Wenn Sie nil eingeben, gilt der Standardwert.
